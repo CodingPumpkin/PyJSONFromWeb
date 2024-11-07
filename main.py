@@ -5,7 +5,7 @@ import html_to_json
 import json
 
 html_response = requests.get(url=target_url)
-print(type(html_response))
+
 raw_text = html_response.text
 
 json_dict = html_to_json.convert(raw_text)
