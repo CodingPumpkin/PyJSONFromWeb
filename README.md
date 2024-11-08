@@ -21,8 +21,9 @@ The second step in choosing which tools to employ is taking a look at which of t
 Thus, as `requests`, `json` and `bs4` modules are pretty commonly used for such problems I have experienced no trouble deciding to use them in this project. `html_to_json`, on the other hand, has faced a competitor - `xmltojson` module. However, I find it  more sensible in this scenario to use more specific tool for such a basic task. 
 
 ## Additional info
-All of the modules used in this project are listed in `requirements.txt`.
+1) All of the modules used in this project are listed in `requirements.txt`.
 Please, use the following command to install them: 
 ```
 pip install -r /path/to/requirements.txt
 ```
+2) All the data parsed "as-is" because no further instructions were given.

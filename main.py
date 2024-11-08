@@ -32,7 +32,6 @@ json_dict = html_to_json.convert(raw_text)
 
 #Create a json dict for contents
 json_contents_dict = parse_contents(raw_text)
-print(json_contents_dict)
 
 #Save the results to respective files
 with open("data.json", "w") as file:
